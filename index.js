@@ -12,4 +12,5 @@ function updateObjectWithKeyAndValue(object, key, value){
 
 function deleteFromObjectByKey(object, key){
   var Copy = delete object[key]
+  return Copy
 }
